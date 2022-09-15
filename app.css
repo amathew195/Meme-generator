@@ -1,0 +1,72 @@
+body {
+    background-color: #e0fbfc;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: rgb(1, 1, 78);
+}
+
+.container1 {
+    margin: 3%;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    margin: calc(10%/6);
+    width: 30%;
+    font: 12px;
+}
+
+.textUpper {
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    width: 100%;
+    font-family: Impact, sans-serif;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    color: white;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.textLower {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+    font-family: Impact, sans-serif;
+    color: white;
+    font-size: 200%;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    text-transform: uppercase;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.trash {
+    opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+    .container {
+        position: relative;
+        display: inline-block;
+        margin: 5%;
+        width: 90%;
+        font: 6px;
+    }
+}
